@@ -1,0 +1,2 @@
+# Core uses the Python standard library only.
+# Optional model tokenizer: install tokenizers>=0.20 in the AstrBot environment.

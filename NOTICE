@@ -1,0 +1,18 @@
+A Million Words to Remember You / 百万字，记住你
+
+The hot/cold continuity algorithm, token budgeting, source archive and related
+regression cases were extracted and generalized from the Dafeiyu workspace.
+The original Dafeiyu project carries the following notice, retained here:
+Copyright (c) 2026 dafeiyu-astrbot contributors.
+Original project: https://github.com/whyever77/dafeiyu-astrbot
+Project modifications: Copyright (c) 2026 Remember You contributors.
+
+No production conversations, embeddings, model tokenizer assets, credentials,
+server configuration, or upstream AstrBot/LivingMemory source files are bundled.
+
+AstrBot is an optional external host, not part of this distribution:
+https://github.com/AstrBotDevs/AstrBot
+LivingMemory was part of the original deployment's optional semantic/graph
+memory layer, but is not copied or reimplemented by this release:
+https://github.com/lxfight-s-Astrbot-Plugins/astrbot_plugin_livingmemory
+These projects retain their own licenses; see docs/PROVENANCE.md.

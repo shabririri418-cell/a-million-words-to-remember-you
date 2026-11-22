@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "a-million-words-to-remember-you"
+version = "0.1.0"
+description = "Source-backed hot/cold memory for long-running AI companions"
+readme = "README.en.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "Remember You contributors"}]
+dependencies = []
+
+[project.optional-dependencies]
+tokenizer = ["tokenizers>=0.20"]
+openai = ["openai>=1.0"]
+test = ["pytest>=8"]
+
+[project.urls]
+Homepage = "https://github.com/shabririri418-cell/a-million-words-to-remember-you"
+Issues = "https://github.com/shabririri418-cell/a-million-words-to-remember-you/issues"
+
+[tool.setuptools.packages.find]
+include = ["remember_you*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

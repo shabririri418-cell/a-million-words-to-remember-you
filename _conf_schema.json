@@ -1,0 +1,11 @@
+{
+  "enabled": {"description":"Enable memory / 启用记忆（先配置会话范围）","type":"bool","default":false},
+  "enabled_scopes": {"description":"Explicit AstrBot unified_msg_origin allowlist / 明确允许的会话标识列表","type":"list","default":[]},
+  "tokenizer_path": {"description":"Local tokenizer.json matching your model; empty = conservative UTF-8 estimate / 模型分词器路径，空则保守估算","type":"string","default":""},
+  "hot_target_tokens": {"description":"Soft hot-memory input target, including tool schemas / 热层软预算","type":"int","default":350000},
+  "model_window_tokens": {"description":"Verified model window; capped by provider config / 经确认的模型窗口","type":"int","default":1000000},
+  "response_reserve_tokens": {"description":"Reserve for model output / 输出预留","type":"int","default":8192},
+  "summary_timeout_seconds": {"description":"Background summary request timeout / 后台摘要超时秒数","type":"int","default":90},
+  "summary_chunk_tokens": {"description":"Maximum history chunk for one summary call / 单批摘要输入预算","type":"int","default":24000},
+  "max_parallel_summaries": {"description":"Global background summary concurrency / 全局后台摘要并发","type":"int","default":2}
+}

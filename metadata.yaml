@@ -1,0 +1,6 @@
+name: astrbot_plugin_remember_you
+display_name: 百万字，记住你 / A Million Words to Remember You
+author: shabririri418-cell
+version: 0.1.0
+desc: 有来源可回读的冷热记忆；按完整轮次降温，后台整理，原文与会话隔离。
+repo: https://github.com/shabririri418-cell/a-million-words-to-remember-you
